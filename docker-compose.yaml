@@ -11,11 +11,11 @@ services:
   #     - 3721:3721
   #   environment:
   #     - LOG_LEVEL=debug
-  #     - UNDB_BASE_URL=http://localhost:3721
+  #     - UNDB_BASE_URL=http://46.165.200.49:3721
   #     - UNDB_DB_PROVIDER=turso
   #     - UNDB_DB_TURSO_URL=http://db:8080
   #     - UNDB_STORAGE_PROVIDER=minio
-  #     - UNDB_MINIO_STORAGE_ENDPOINT=http://minio:9000
+  #     - UNDB_MINIO_STORAGE_ENDPOINT=http://46.165.200.49:9000
   #     - UNDB_VERIFY_EMAIL=true
   #     - UNDB_MAIL_HOST=maildev
   #     - UNDB_MAIL_PORT=1025
